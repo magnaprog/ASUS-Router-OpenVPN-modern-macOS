@@ -1,4 +1,4 @@
-# ASUS Router OpenVPN Server and macOS Tunnelblick Client Setup Guide
+# ASUS Router OpenVPN Server and Client Setup Guide
 
 This guide will help you set up an OpenVPN server on your ASUS router and configure your macOS to connect to it using Tunnelblick.
 
