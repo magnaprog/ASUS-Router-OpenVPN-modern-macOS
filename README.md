@@ -113,6 +113,8 @@ Prepare the following files for upload to your ASUS router:
 ### Step 7: General Settings
 - **Client will use VPN to access**: **LAN only**
 
+![ASUS Router General Settings](screenshots/ASUS%20Router%20General%20Settings.png)
+
 ### Step 8: Advanced Settings
 - **Interface Type**: **TUN**
 - **Protocol**: **UDP** (you can choose TCP if you need more reliability at the expense of speed)
@@ -123,6 +125,8 @@ Prepare the following files for upload to your ASUS router:
 - **Advertise DNS to clients**: **Yes**
   - Ensures VPN clients use the router's DNS server.
 - **Log verbosity**: **3**
+
+![ASUS Router Advanced Settings](screenshots/ASUS%20Router%20Advanced%20Settings.png)
 
 ### Step 9: Custom Configuration
 Add the following lines to the **Custom Configuration** section:
@@ -195,6 +199,8 @@ By following these steps, you'll create a unique client certificate and key, and
    - **Flush DNS cache**: **Checked** (to avoid DNS leaks).
    - **Disable IPv6 unless the VPN server is accessed using IPv6**: **Checked** (prevents IPv6 leaks).
 4. Optionally, enable the **Reconnect on disconnect** option to automatically reconnect the VPN.
+
+![Tunnelblick Settings](screenshots/Tunnelblick%20Settings.png)
 
 ### Step 4: Connect to the VPN
 1. In Tunnelblick, select the VPN profile you just imported and click **Connect**.
